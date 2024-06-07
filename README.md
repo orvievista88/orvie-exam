@@ -1,15 +1,10 @@
-# PHP test
+## Requirements
 
-## 1. Installation
+- PHP 7.4 or higher
+- Composer
 
-  - create an empty database named "phptest" on your MySQL server
-  - import the dbdump.sql in the "phptest" database
-  - put your MySQL server credentials in the constructor of DB class
-  - you can test the demo script in your shell: "php index.php"
+## Installation
 
-## 2. Expectations
-
-This simple application works, but with very old-style monolithic codebase, so do anything you want with it, to make it:
-
-  - easier to work with
-  - more maintainable
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `composer install` to install dependencies.
